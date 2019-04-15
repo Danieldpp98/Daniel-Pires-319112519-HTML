@@ -1,0 +1,88 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="../formulario/estilo.css">
+</head>
+<body>
+    <div class="usuario">
+        <header>
+            <fieldset id="title">
+                <h1>FORMULÁRIO</h1>
+            </fieldset>
+        </header>
+      
+        <form>
+            <fieldset class="field"><legend>IDENTIFICAÇÃO DO USUÁRIO</legend>
+
+                <p><label for="fNome">Nome:</label>
+                <input type="text" name="nNome" class="inp1"></p>
+
+                <p><label for="fSobrenome">Sobrenome:</label>
+                <input type="text" name="nSobrenome" class="inp1"></p>
+
+                <p><label for="fNascimento">Data de Nascimento:</label>
+                <input type="date" type="month" name="nNascimento" placeholder="dd/mm/aa" class="inp1"></p>
+
+                <p><label for="fSexo">Sexo:</label>
+                <select name="nsexo" class="inp1"></p>
+                    <option>Masculino</option>
+                    <option>Feminino</option>
+                </select>
+
+                <p><label for="fEstadoCivil">Estado Civil:</label>
+                <select name="nEstadoCivil" class="inp1"></p>
+                <option>Solteiro(a)</option>
+                <option>Casado(a)</option>
+                <option>Divorciado(a)</option>
+                <option>Viúvo(a)</option>
+                </select>
+               
+            </fieldset>
+
+            <fieldset class="field"><legend>DOCUMENTAÇÃO</legend>
+                <p><label for="fCPF">CPF:</label>
+                <input type="text" name="nCPF" placeholder="XXX.XXX.XXX-XX" class="inp1"></p>
+
+                <p><label for="fIdentidade">Identidade:</label>
+                <input type="text" name="nIdentidade" class="inp1"></p>
+            </fieldset>
+
+            <fieldset class="field"><legend>CONTATO</legend>
+                <p><label for="ftelefone">Telefone:</label>
+                <input type="text" name="nTelefone" class="inp1" width="300px"></p>
+
+                <p><label for="fCelular">Celular:</label>
+                <input type="text" name="nCelular" class="inp1"></p>
+            </fieldset>
+
+            <fieldset class="field"><legend>ENDEREÇO</legend>
+                <p><label for="fPaís">País:</label>
+                <input type="text" name="nPaís" class="inp1"></p>
+
+                <p><label for="fEstado">Estado:</label>
+                <input type="text" name="nEstado" class="inp1"></p>
+
+                <p><label for="fCidade">Cidade:</label>
+                <input type="text" name="nCidade" class="inp1"></p>
+
+                <p><label for="fBairro">Bairro:</label>
+                <input type="text" name="nBairro" class="inp1"></p>
+
+                <p><label for="fRua">Rua:</label>
+                <input type="text" name="nRua" class="inp1"></p>
+
+                <p><label for="fNumero">Número:</label>
+                <input type="text" name="nNumero" class="inp1"></p>
+
+            </fieldset>
+            <fieldset class="field">
+                <button type="submit">Enviar Formulário</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
