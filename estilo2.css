@@ -1,0 +1,32 @@
+#title {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(173, 172, 172);
+    width: 800px;
+    border-color: black;
+    margin: auto;
+    margin-top: 80px;
+     
+}
+.field {
+    background-color: rgb(173, 172, 172);
+    border-color: black;
+    width: 800px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+
+}
+.usuario {
+
+    background-color: white;
+    border-color: rgb(173, 172, 172);
+
+} 
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
